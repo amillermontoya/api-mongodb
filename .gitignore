@@ -1,0 +1,43 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Entornos locales y sensibles
+.env
+
+# Logs
+logs/
+*.log
+debug.log
+error.log
+output.log
+trace.log
+
+# Cobertura de pruebas
+coverage/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# Archivos de construcción y empaquetado
+dist/
+build/
+tmp/
+
+# Sistemas de control de versiones
+*.lock
+package-lock
+
+# Archivos temporales del sistema operativo
+Thumbs.db

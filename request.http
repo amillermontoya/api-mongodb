@@ -1,0 +1,31 @@
+POST http://localhost:8900/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"Arturo Vidal",
+    "age":38,
+    "email":"arturo.vidal@correoaiep.cl"
+}
+
+###
+GET http://localhost:8900/api/users HTTP/1.1
+Content-Type: application/json
+
+
+###
+GET http://localhost:8900/api/users/6738d884b44ba9faf2039897 HTTP/1.1
+Content-Type: application/json
+
+###
+PUT http://localhost:8900/api/users/6738d884b44ba9faf2039897 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"Cristiano Ronaldo",
+    "age":39,
+    "email":"cristiano.ronaldo@correoaiep.cl"
+}
+
+
+###
+DELETE http://localhost:8900/api/users/6738d949b44ba9faf203989a HTTP/1.1
